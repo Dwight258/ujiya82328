@@ -11,7 +11,7 @@ const obeya = ((Nums) => {
 			return ""
 
 		if (num === Infinity || Number.isNaN(num))
-			return `これほど壮大な${num}は82328で表せるのか`
+			return `これほど大きな値：${num}は82328では表せません`
 
 		if (num < 0)
 			return `(⑨)*(${demolish(num * -1)})`.replace(/\*\(1\)/g, "")
