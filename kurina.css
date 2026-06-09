@@ -12,6 +12,10 @@ html {
 			color: #002b41;
 		}
 
+		html, body {
+  			overflow: hidden;
+		}
+
 		head {
 			display: block;
 			text-align: center;
